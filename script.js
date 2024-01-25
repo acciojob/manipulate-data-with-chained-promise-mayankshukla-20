@@ -10,7 +10,7 @@ function filter(data){
 function multiply(data){
 	return new Promise((resolve,reject) => {
 		setTimeout(() => {
-			resolve(data.map((item) => item*2);
+			resolve(data.map((item) => item*2));
 		},2000)
 	})
 }
